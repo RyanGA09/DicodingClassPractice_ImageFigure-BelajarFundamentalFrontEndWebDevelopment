@@ -1,2 +1,2 @@
-/* Silakan impor kode di sini */
+/* Please import the code here */
 import "./image-figure.js";

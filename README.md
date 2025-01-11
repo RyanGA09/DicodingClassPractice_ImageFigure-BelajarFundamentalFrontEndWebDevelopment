@@ -1,4 +1,4 @@
-# Dicoding Class Practice ImageFigure - (Belajar Fundamental Front-End Web Development (Learn Front-End Web Development Fundamentals))
+# Dicoding Class Practice - Image Figure (Belajar Fundamental Front-End Web Development (Learn Front-End Web Development Fundamentals))
 
 ## Author
 
