@@ -44,8 +44,7 @@ class ImageFigure extends HTMLElement {
 
   updateStyle() {
     this._style.textContent = `
-    ${this.localName}
-    image-figure {
+    :host {
       display: block;
     }
 
