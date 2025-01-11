@@ -55,8 +55,39 @@ class ImageFigure extends HTMLElement {
     return value;
   }
 
+  updateStyle() {
+    this._style.textContent = `
+    ${this.localName}image-figure {
+      display: block;
+    }
+
+    figure {
+      max-width: 220px;
+      margin: 0;
+      padding: 5px;
+      border: 1px #c0c0c0 solid;
+      display: flex;
+      flex-flow: column;
+    }
+
+    figure > img {
+      max-width: 100%;
+    }
+
+    figure > figcaption {
+      padding: 3px;
+      background-color: #222;
+      text-align: center;
+      color: #fff;
+      font-family: sans-serif;
+      font-size: smaller;
+      font-style: italic;
+    }`;
+  }
+
   render() {
     this.emptyContent();
+    this.updateStyle();
 
     this.appendChild(this._style);
     this.innerHTML += `
